@@ -1,0 +1,130 @@
+
+body{
+    background: #EBF7FF;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content:space-around;
+}
+
+.logo{
+    position: relative;
+    bottom: -210px;
+}
+.logo h1{
+    color: var(--Black, #010E17);
+    text-align: center;
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.form_number{
+    position: relative;
+    bottom: -200px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+   
+}
+
+.form_number input{
+    width: 399px;
+    height: 52px;
+    padding-left: 20px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border-color: #64737A;
+    background: #FFF;
+    margin: 25px 12px;
+    border: solid;
+    font-size: 20px;
+    background-image: url("images/users.svg");  
+    background-repeat: no-repeat; 
+    background-position-x: 22rem;
+    background-position-y: center;
+    
+}
+
+
+
+.form_number button{
+    width: 430px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--CTA-color, #06F);
+    color: #FFF;
+    margin: 25px 12px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.form_number button:hover{
+    background: rgb(233, 80, 33);
+}
+
+.text {
+    text-align: center;
+}
+.question {
+    font-size: 20px;
+    margin: 30px;
+    font-weight: bold;
+}
+
+
+/* Responsivite */
+
+@media screen and (max-width: 1239px) {
+
+    .main {
+        display: block;
+        padding: 20px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .logo{
+        position: relative;
+        bottom: -100px;
+        display: block;
+        align-items: center;
+    }
+   
+    
+    img{
+        margin: 20px auto;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    h1{
+       margin: 20px auto;
+       margin-left: 30%;
+
+    }
+
+    .form_number{
+        display: flex;
+    }
+
+    #nombreInput{
+        margin: auto;
+    }
+    #btnValider {
+        margin: 20px auto;
+    }
+
+    
+   
+
+}
+
+  

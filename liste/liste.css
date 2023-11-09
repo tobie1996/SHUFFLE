@@ -1,0 +1,112 @@
+
+body{
+    background: #EBF7FF;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content:space-around;
+}
+
+.logo{
+    position: relative;
+    bottom: -210px;
+}
+.logo h1{
+    color: var(--Black, #010E17);
+    text-align: center;
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.form_number{
+    position: relative;
+    bottom: -150px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+   
+}
+
+.createName{
+    width: 387px;
+    height: 52px;
+    flex-shrink: 0;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 7px;
+    border-radius: 5px;
+    border: 1px solid #64737A;
+    background: #FFF;
+    display: block;
+        
+}
+
+.list_container {
+   margin: 20px;
+   overflow-y: scroll;
+   max-height: 500px;
+   border: solid 4px #021bfc;
+   padding: 10px;
+   border-radius: 15px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+.spanInput{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: rgb(230, 22, 85);
+    font-size: x-small;
+}
+
+
+/* responsive */
+
+
+@media screen and (max-width: 831px) {
+
+    .main {
+        display: block;
+        justify-content: center;
+    }
+
+    .logo{
+        position: relative;
+        bottom: -2px;
+    }
+
+    .logo h1{
+        color: var(--Black, #010E17);
+        text-align: center;
+        font-family: Outfit;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500px;
+        line-height: normal;
+    }
+
+    .image{
+        
+        margin:10%;
+    }
+
+    .list_container {
+        margin: 10%;
+        overflow-y: scroll;
+        max-height: 500px;
+        border: solid 4px #021bfc;
+        padding: 10px;
+        border-radius: 15px;
+         box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+     }
+    
+    
+}
