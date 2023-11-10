@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
       listContainer.appendChild(input);
     }
     
-    localStorage.clear();
+    //localStorage.clear();
   });
   
 // pour la numerotation
@@ -29,4 +29,10 @@ document.addEventListener("DOMContentLoaded", function() {
       span.classList.add("spanInput");
     }
   };
+
+  btnQuiter = document.getElementById("btnRetour").addEventListener('click', ()=> {
+    window.location.href = "../index.html";
+  })
+
+  
   
