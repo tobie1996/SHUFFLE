@@ -26,7 +26,7 @@ var nombre = localStorage.getItem("nombre");
     var contenuInputs = [];
 
     if (input.value.trim() === '') {
-      alert("Un champ est vide.");
+      alert("Veillez renseigner tous les champs SVP!");
       return;
     }else{
       inputs.forEach(function(input) {
