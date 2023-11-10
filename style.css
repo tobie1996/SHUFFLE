@@ -103,23 +103,30 @@ body{
         margin: 20px auto;
         margin-left: 20%;
         margin-right: 20%;
+        height: 70px;
     }
 
     h1{
        margin: 20px auto;
-       margin-left: 30%;
+
+       height: 70px;
 
     }
 
     .form_number{
         display: flex;
+        margin: 30px;
     }
 
     #nombreInput{
         margin: auto;
+        width: 300px;
+        height: 52px;
     }
     #btnValider {
         margin: 20px auto;
+        width: 330px;
+        height: 52px;
     }
 
     
