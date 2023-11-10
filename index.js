@@ -13,7 +13,7 @@ var nombre = localStorage.getItem("nombre");
 
             var input = document.createElement("input");
             input.classList.add("createInput");
-            input.type = "text";
+            input.type = "text";i
             input.name = "input" + i;
             input.placeholder = "Entrer un nom ";
             document.getElementById("inputsContainer").appendChild(input);
@@ -25,10 +25,17 @@ var nombre = localStorage.getItem("nombre");
     var inputs = document.querySelectorAll('input');
     var contenuInputs = [];
 
-    inputs.forEach(function(input) {
-    contenuInputs.push(input.value);
+    if (input.value.trim() === '') {
+      alert("Un champ est vide.");
+      return;
+    }else{
+      inputs.forEach(function(input) {
+        contenuInputs.push(input.value);
     });
+    
+    }
 
+    
   function shuffleArray(array) {
 
       var currentIndex = array.length,
@@ -45,6 +52,8 @@ var nombre = localStorage.getItem("nombre");
 
       return array;
     }
+    
+  
   var values = shuffleArray(contenuInputs);
   localStorage.setItem('names', JSON.stringify(values));
   window.location.href = "../liste/liste.html";
