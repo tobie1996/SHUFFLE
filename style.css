@@ -93,40 +93,49 @@ body{
 
     .logo{
         position: relative;
-        bottom: -100px;
+        bottom: -40px;
         display: block;
         align-items: center;
     }
    
     
     img{
-        margin: 20px auto;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin: 20%;
         height: 70px;
     }
 
     h1{
-       margin: 20px auto;
-
-       height: 70px;
+       margin: auto;
+       height: 50px;
 
     }
 
     .form_number{
         display: flex;
         margin: 30px;
+        bottom: -15%;
     }
 
     #nombreInput{
         margin: auto;
-        width: 300px;
+        width: 90%;
         height: 52px;
+        background-image: url("images/users.svg");  
+        background-repeat: no-repeat; 
+        background-position-x: 98%;
+        background-position-y: center;
     }
     #btnValider {
         margin: 20px auto;
-        width: 330px;
+        width: 100%;
         height: 52px;
+    }
+
+    p{
+       margin-bottom: 40px;
+    }
+    .question{
+        margin: 10px;
     }
 
     
