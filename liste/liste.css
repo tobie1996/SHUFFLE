@@ -68,6 +68,33 @@ body{
 }
 
 
+
+.quiter{
+    left: 0;
+    height: 100px;
+    width: 200px;
+    margin: 10rem;
+    margin-left: 10px;
+
+}
+
+#btnRetour{
+    margin: 25% auto;
+    width: 200px;
+    height: 50%;
+    border: solid 1px red;
+}
+
+#btnRetour:hover{
+    border: solid 2px rgb(0, 0, 0);
+    background: rgb(224, 98, 98);
+    color: #FFF;
+    font-size: 1.5rem;
+
+
+}
+
+
 /* responsive */
 
 
@@ -80,7 +107,7 @@ body{
 
     .logo{
         position: relative;
-        bottom: -2px;
+        bottom: 2px;
     }
 
     .logo h1{
@@ -93,9 +120,10 @@ body{
         line-height: normal;
     }
 
-    .image{
-        
-        margin:10%;
+    img{
+        margin: 5%;
+        height: 60px;
+        margin-left: 21%;
     }
 
     .list_container {
@@ -105,8 +133,23 @@ body{
         border: solid 4px #021bfc;
         padding: 10px;
         border-radius: 15px;
-         box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+        padding: 7px;
      }
+     h1{
+        margin: 7px;
+     }
+    
+     #btnRetour{
+        width: 200px;
+        height: 50%;
+        border: solid 1px #021bfc;
+ 
+    }
+
+    .quiter{
+        margin: 10% auto;
+    }
     
     
 }

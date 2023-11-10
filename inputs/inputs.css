@@ -48,6 +48,8 @@ body{
     background-position-y: center;
     display: flex;
     flex-direction: column;   
+    padding: 10px;
+    
     
 }
 
@@ -89,6 +91,9 @@ line-height: normal;
 .inputsContainer{
     overflow-y: scroll;
     max-height: 500px;
+    border: solid 2px #06F;
+    border-radius: 15px;
+
 }
 
 
@@ -105,20 +110,23 @@ line-height: normal;
 
     .logo{
         position: relative;
-        bottom: -40px;
+        bottom: -10px;
         display: block;
         align-items: center;
+        margin-bottom: 5%;
     }
    
     
     img{
-        margin: 20%;
-        height: 70px;
+        margin: 10%;
+        height: 60px;
+        margin-left: 21%;
     }
 
     h1{
        margin: auto;
        height: 50px;
+       margin-bottom: 10px;
 
     }
 
@@ -145,6 +153,10 @@ line-height: normal;
     .inputsContainer{
         overflow-y: scroll;
         max-height: 500px;
+        box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+        padding: 7%;
+        margin: 10px;
+
     }
 
     
