@@ -14,7 +14,7 @@ var nombre = localStorage.getItem("nombre");
 
             var input = document.createElement("input");
             input.classList.add("createInput");
-            input.type = "text";i
+            input.type = "text";
             input.name = "input" + i;
             input.placeholder = "Entrer un nom ";
             document.getElementById("inputsContainer").appendChild(input);
