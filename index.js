@@ -1,11 +1,12 @@
 function valider() {
-    var nombre = parseInt(document.getElementById("nombreInput").value );
-    if (!isNaN(nombre)) {
-        localStorage.setItem("nombre", nombre);
-        window.location.href = "inputs/inputs.html";
-    }
+  var nombre = parseInt(document.getElementById("nombreInput").value );
+  if (!isNaN(nombre) && nombre >= 0) {
+      localStorage.setItem("nombre", nombre);
+      window.location.href = "inputs/inputs.html";
+  }else{
+    alert("veillez renseigner un nombre positif");
+  }
 }
-
 // pour la page inputs
 var nombre = localStorage.getItem("nombre");
 
